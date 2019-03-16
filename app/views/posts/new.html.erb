@@ -1,9 +1,9 @@
-<%= form_tag("/posts") do %>
-  <%= label_tag('post[title]', "Post title:") %>
+<%= form_tag('/posts') do %>
+  <%= label_tag('post[title]', 'Post title:') %>
   <%= text_field_tag('post[title]') %>
 
-  <%= label_tag('post[description]', "Post description:") %>
+  <%= label_tag('post[description]', 'Post description:') %>
   <%= text_field_tag('post[description]') %>
 
-  <%= submit_tag "Submit Post" %>
+  <%= submit_tag 'Submit Post' %>
 <% end %>
